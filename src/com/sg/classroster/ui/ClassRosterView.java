@@ -96,4 +96,13 @@ public class ClassRosterView {
     public void displayUnknownCommandBanner() {
         io.print("Unknown Command!!!");
     }
+
+    public void displayRemoveSuccessBanner() {
+        io.print("Successfully removed!");
+    }
+
+    public void displayErrorMessage(String errorMsg) {
+        io.print("=== ERROR ===");
+        io.print(errorMsg);
+    }
 }
